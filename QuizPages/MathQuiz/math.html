@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="mathstyle.css" rel="stylesheet">
+    <title>Math Quiz</title>
+</head>
+
+<body>
+    <section id="glass">
+        <h1 style="text-align: center; margin: 10px 0px; color: azure;">Math Quiz</h1>
+        <div class="container">
+            <div class="question">
+                <h3 style="text-align: center; font-size: 18px; letter-spacing: 1px;">What is the longest side of a
+                    right triangle called?</h3>
+                <div class="answerGrid">
+                    <button onclick="wrongAns()">Base</button>
+                    <button onclick="wrongAns()">Longest</button>
+                    <button onclick="wrongAns()">Longest side</button>
+                    <button onclick="correctAns()">Hypotenuse</button>
+                </div>
+            </div>
+            <div class="question">
+                <h3 style="text-align: center; font-size: 18px; letter-spacing: 1px;">What is the cube root of 8?</h3>
+                <div class="answerGrid">
+                    <button onclick="wrongAns()">idk bro</button>
+                    <button onclick="correctAns()">2</button>
+                    <button onclick="wrongAns()">-2</button>
+                    <button onclick="wrongAns()">You tell me, idk</button>
+                </div>
+            </div>
+            <div class="question">
+                <h3 style="text-align: center; font-size: 18px; letter-spacing: 1px;">15/50 as a percentage<h3>
+                <div class="answerGrid">
+                    <button onclick="correctAns()">30%</button>
+                    <button onclick="wrongAns()">52%</button>
+                    <button onclick="wrongAns()">Undefined</button>
+                    <button onclick="wrongAns()">80%</button>
+                </div>
+            </div>
+            <div class="question">
+                <h3 style="text-align: center; font-size: 18px; letter-spacing: 1px;">in the linear line formula, y = mx+b, what does b represent on the graph?<h3>
+                <div class="answerGrid">
+                    <button onclick="wrongAns()">The title</button>
+                    <button onclick="wrongAns()">A random whole number</button>
+                    <button onclick="correctAns()">The y intercept</button>
+                    <button onclick="wrongAns()">The x intercept</button>
+                </div>
+            </div>
+            <div class="question">
+                <h3 style="text-align: center; font-size: 18px; letter-spacing: 1px;">How can you tell if a lie on a graph is linear or not?</h3>
+                <div class="answerGrid">
+                    <button onclick="correctAns()">If the line is straight</button>
+                    <button onclick="wrongAns()">If the line is not straight</button>
+                    <button onclick="wrongAns()">if the x axis is above 50</button>
+                    <button onclick="wrongAns()">If the y axis of the line is 0</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="mathscript.js"></script>
+</body>
+</html>
