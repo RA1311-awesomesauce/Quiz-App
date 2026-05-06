@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("https://media.istockphoto.com/id/2188561526/photo/mathematical-formulas.webp?a=1&b=1&s=612x612&w=0&k=20&c=ANkqET-mh9_a5rybg3EOlsqfPfOUW5eCJWrDZDofyQw=");
+}
+#glass {
+    margin: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.274);
+    border: 0.5px solid white;
+    box-shadow: 0 0 10px gray;
+}
+.answerGrid {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    margin-top: 20px;
+}
+.answerGrid button {
+    width: 100%;
+    padding: 10px 15px;
+    border: none;
+    background-color: #DFF1F1;
+    border-radius: 6px;
+    transition: all 0.5s ease;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.question {
+    padding: 20px;
+}
+.answerGrid button:active {
+    scale: 95%;
+}
